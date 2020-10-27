@@ -1,6 +1,6 @@
-public class AddTwoIntegers 
+public class AddTwoIntegers{ 
 
-    public static void main(String[] args) 
+    public static void main(String[] args){ 
         
         int first = 10;
         int second = 20;
@@ -10,4 +10,5 @@ public class AddTwoIntegers
 
         System.out.println("The sum is: " + sum);
     
+}
 }
