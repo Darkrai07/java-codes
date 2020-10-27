@@ -1,9 +1,9 @@
-public class Main 
+public class Main{
 
   public static void main(String[] args) {
     int number = 34;
     boolean flag = false;
-    for (int i = 2; i <= number / 2; ++i) 
+    for (int i = 2; i <= number / 2; ++i){
 
       // condition for i to be a prime number
       if (checkPrime(i)) {
@@ -14,9 +14,9 @@ public class Main
           // n = primeNumber1 + primeNumber2
           System.out.printf("%d = %d + %d\n", number, i, number - i);
           flag = true;
-        
+       } 
 
-      
+      }
     }
 
     if (!flag)
@@ -27,7 +27,7 @@ public class Main
   static boolean checkPrime(int num) {
     boolean isPrime = true;
 
-    for (int i = 2; i <= num / 2; ++i) 
+    for (int i = 2; i <= num / 2; ++i) {
       if (num % i == 0) {
         isPrime = false;
         break;
